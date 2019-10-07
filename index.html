@@ -1,19 +1,73 @@
 <html>
 <head>
+	<style type="text/css">
+		table {
+			border: 3px solid black;	
+		}
+		#st1 {
+			color: green;
+			background-color: blue;
+            border: 3px dashed pink;
+		}
+		#st1:hover {
+			color: red;
+			background-color: black;
+            border: 3px solid black;
+		}
+		#st2 {
+			color: pink;
+			background-color: blue;
+            border: 3px dashed orange;
+		}
+		#st2:hover {
+			color: blue;
+			background-color: yellow;
+            border: 3px solid black;
+		}
+	</style>
 </head>
 <body>
-   <h1>Var #  Fomichev P.P. IU-4-13б</h1>
+   <h1>Var #12 Fomichev P.P. IU-4-13б</h1>
       <div>
    <h2>Task 1</h2>
-   <p>eee</p>
+   <h1 style="color: blue;
+   background-color: yellow;">Заголовок 1</h1>
+   <h2 style="color: red;
+   background-color: green;">Zagolovok 2</h2>
+   <h3 style="color: green;
+   background-color: purple;">Zagolovok 3</h3>
+      </div>
+   	 <hr>
       </div>
       <div>
    <h2>Task 2</h2>
-   <p></p>
+   <table>
+   	<tr><td colspan="3" style="border: 3px solid black;
+   	text-align: center;">Шапка</td></tr>
+   	<tr><td id="st1">------</td><td id="st1">-----</td><td id="st1">-------</td></tr>
+   	<tr><td id="st2">------</td><td id="st2">-----</td><td id="st2">-------</td></tr>
+   </table>
    </div>
+   <hr>
       <div>
    <h2>Task 3</h2>
-   <p></p>
+   <ul>
+   	<li><ol>
+   		<li style="color: green;
+   		font-size: 25px;">1</li>
+   		<li style="color: blue;
+   		font-size: 20px;">2</li>
+   	    </ol>
+   </li>
+   	<li>
+   		<ol>
+   		<li style="color: red;
+   		font-size: 35px;">1</li>
+   		<li style="color: yellow;
+   		font-size: 30px;">2</li>
+   	    </ol>
+   </li>
+   </ul>
    </div>
 </body>
 </html>
